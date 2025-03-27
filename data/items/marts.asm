@@ -61,7 +61,7 @@ MartViolet:
 	db ESCAPE_ROPE
 	db ANTIDOTE
 	db PARLYZ_HEAL
-	db AWAKENING
+	db TM_MUD_SLAP
 	db X_DEFEND
 	db X_ATTACK
 	db X_SPEED
@@ -76,8 +76,8 @@ MartAzalea:
 	db SUPER_POTION
 	db ESCAPE_ROPE
 	db REPEL
-	db ANTIDOTE
-	db PARLYZ_HEAL
+	db TM_SWEET_SCENT
+	db TM_FURY_CUTTER
 	db FLOWER_MAIL
 	db -1 ; end
 
@@ -114,14 +114,15 @@ MartGoldenrod2F2:
 	db -1 ; end
 
 MartGoldenrod3F:
-	db 7 ; # items
-	db X_SPEED
-	db X_SPECIAL
-	db X_DEFEND
-	db X_ATTACK
-	db DIRE_HIT
-	db GUARD_SPEC
-	db X_ACCURACY
+	db 8 ; # items
+	db TM_HIDDEN_POWER
+	db TM_DIG
+	db TM_SUNNY_DAY
+	db TM_RAIN_DANCE
+	db TM_SANDSTORM
+	db TM_ROLLOUT
+	db TM_DEFENSE_CURL
+	db TM_SWIFT
 	db -1 ; end
 
 MartGoldenrod4F:
@@ -170,10 +171,10 @@ MartOlivine:
 	db GREAT_BALL
 	db SUPER_POTION
 	db HYPER_POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
-	db ICE_HEAL
+	db TM_SNORE
+	db TM_REST
+	db TM_SWAGGER
+	db TM_SHADOW_BALL
 	db SUPER_REPEL
 	db SURF_MAIL
 	db -1 ; end
@@ -205,16 +206,16 @@ MartMahogany2:
 	db RAGECANDYBAR
 	db GREAT_BALL
 	db SUPER_POTION
-	db HYPER_POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
+	db TM_THIEF
+	db TM_DETECT
+	db TM_STEEL_WING
 	db SUPER_REPEL
 	db REVIVE
 	db FLOWER_MAIL
 	db -1 ; end
 
 MartBlackthorn:
-	db 9 ; # items
+	db 10 ; # items
 	db GREAT_BALL
 	db ULTRA_BALL
 	db HYPER_POTION
@@ -222,8 +223,9 @@ MartBlackthorn:
 	db FULL_HEAL
 	db REVIVE
 	db MAX_REPEL
-	db X_DEFEND
-	db X_ATTACK
+	db TM_IRON_TAIL
+	db TM_DYNAMICPUNCH
+	db TM_DRAGONBREATH
 	db -1 ; end
 
 MartViridian:
@@ -313,12 +315,16 @@ MartCeladon2F2:
 	db -1 ; end
 
 MartCeladon3F:
-	db 5 ; # items
+	db 9 ; # items
 	db TM_HIDDEN_POWER
 	db TM_SUNNY_DAY
 	db TM_PROTECT
 	db TM_RAIN_DANCE
 	db TM_SANDSTORM
+	db TM_EARTHQUAKE
+	db TM_PSYCHIC
+	db TM_SOLARBEAM
+	db TM_ZAP_CANNON
 	db -1 ; end
 
 MartCeladon4F:
@@ -349,12 +355,14 @@ MartCeladon5F2:
 	db -1 ; end
 
 MartFuchsia:
-	db 7 ; # items
+	db 9 ; # items
 	db GREAT_BALL
 	db ULTRA_BALL
 	db SUPER_POTION
 	db HYPER_POTION
 	db FULL_HEAL
+	db TM_TOXIC
+	db TM_SLUDGE_BOMB
 	db MAX_REPEL
 	db FLOWER_MAIL
 	db -1 ; end
