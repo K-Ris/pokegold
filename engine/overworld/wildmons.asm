@@ -497,7 +497,7 @@ InitRoamMons:
 	ld [wRoamMon3Species], a
 
 ; level
-	ld a, 40
+	ld a, 20
 	ld [wRoamMon1Level], a
 	ld [wRoamMon2Level], a
 	ld [wRoamMon3Level], a
