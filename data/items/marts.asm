@@ -322,7 +322,7 @@ MartCeladon3F:
 	db TM_RAIN_DANCE
 	db TM_SANDSTORM
 	db TM_EARTHQUAKE
-	db TM_PSYCHIC
+	db TM_PSYCHIC_M
 	db TM_SOLARBEAM
 	db TM_ZAP_CANNON
 	db -1 ; end
