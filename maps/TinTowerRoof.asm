@@ -41,7 +41,7 @@ TinTowerHoOh:
 
 .Silver:
 	loadvar VAR_BATTLETYPE, BATTLETYPE_FORCEITEM
-	loadwildmon HO_OH, 70
+	loadwildmon HO_OH, 40
 	startbattle
 	disappear TINTOWERROOF_HO_OH
 	reloadmapafterbattle
