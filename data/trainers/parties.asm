@@ -1250,16 +1250,18 @@ GruntMGroup:
 	; GRUNTM (5)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 21, RATTATA
-	db 21, RATTATA
+	db 21, PINECO
 	db 23, RATTATA
-	db 23, RATTATA
-	db 23, RATTATA
+	db 23, GLIGAR
+	db 23, QWILFISH
 	db -1 ; end
 
 	; GRUNTM (6)
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 26, ZUBAT
 	db 26, GASTLY
+	db 26, EEVEE
+	db 26, MISDREAVUS
 	db -1 ; end
 
 	; GRUNTM (7)
@@ -1267,7 +1269,7 @@ GruntMGroup:
 	db 23, KOFFING
 	db 23, GRIMER
 	db 23, ZUBAT
-	db 23, RATTATA
+	db 23, RATICATE
 	db -1 ; end
 
 	; GRUNTM (8)
@@ -1476,18 +1478,23 @@ SkierGroup:
 TeacherGroup:
 	; TEACHER (1)
 	db "COLETTE@", TRAINERTYPE_NORMAL
-	db 36, CLEFAIRY
+	db 42, CLEFABLE
+	db 42, TYPHLOSION
+	db 42, TOGETIC
 	db -1 ; end
 
 	; TEACHER (2)
 	db "HILLARY@", TRAINERTYPE_NORMAL
-	db 32, AIPOM
-	db 36, CUBONE
+	db 37, AIPOM
+	db 37, TOGETIC
+	db 37, MEGANIUM
 	db -1 ; end
 
 	; TEACHER (3)
 	db "SHIRLEY@", TRAINERTYPE_NORMAL
-	db 35, JIGGLYPUFF
+	db 38, WIGGLYTUFF
+	db 38, FURRET
+	db 38, FERALIGATR
 	db -1 ; end
 
 SabrinaGroup:
