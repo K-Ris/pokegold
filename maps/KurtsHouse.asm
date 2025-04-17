@@ -315,7 +315,7 @@ KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:
 	big_step DOWN
 	step_end
 
-	+KurtsHouseKurtGetStartedText:
+	KurtsHouseKurtGetStartedText:
 	text "Kurt: I'll get"
 	line "started right now!"
 	done
