@@ -143,8 +143,6 @@ Kurt1:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	writetext KurtsHouseKurtGetStartedText
 	waitbutton
-	writetext KurtsHouseKurtItWillTakeADayText
-	waitbutton
 	closetext
 	special FadeOutToBlack
 	special ReloadSpritesNoPalettes
