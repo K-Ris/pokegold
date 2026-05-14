@@ -315,10 +315,16 @@ KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:
 	big_step DOWN
 	step_end
 
-	+KurtsHouseKurtGetStartedText:
+KurtsHouseKurtGetStartedText:
 	text "Kurt: I'll get"
 	line "started right now!"
 	done
+
+KurtsHouseKurtItWillTakeADayText:
+    text "KURT: It'll take"
+    line "a day to make."
+    cont "Check back later."
+    done
 
 KurtsHouseKurtMakingBallsMustWaitText:
 	text "Hm? Who are you?"
