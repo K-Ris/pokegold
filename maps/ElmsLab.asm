@@ -701,7 +701,7 @@ ElmText_Intro:
 	line "#MON for a"
 	cont "partner."
 
-	para "They're all rare"
+	para "They're common"
 	line "#MON that we"
 	cont "just found."
 

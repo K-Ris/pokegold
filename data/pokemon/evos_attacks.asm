@@ -2965,16 +2965,19 @@ UrsaringEvosAttacks:
 	db 0 ; no more level-up moves
 
 SlugmaEvosAttacks:
-	db EVOLVE_LEVEL, 38, MAGCARGO
+	db EVOLVE_LEVEL, 26, MAGCARGO
 	db 0 ; no more evolutions
 	db 1, SMOG
-	db 8, EMBER
-	db 15, ROCK_THROW
-	db 22, HARDEN
-	db 29, AMNESIA
-	db 36, FLAMETHROWER
-	db 43, ROCK_SLIDE
-	db 50, BODY_SLAM
+	db 1, HARDEN
+	db 6, FIRE_SPIN
+	db 9, EMBER
+	db 12, ROCK_THROW
+	db 16, SUNNY_DAY
+	db 22, ACID_ARMOR
+	db 28, AMNESIA
+	db 32, FLAMETHROWER
+	db 36, ROCK_SLIDE
+	db 42, BODY_SLAM
 	db 0 ; no more level-up moves
 
 MagcargoEvosAttacks:
@@ -2986,9 +2989,10 @@ MagcargoEvosAttacks:
 	db 15, ROCK_THROW
 	db 22, HARDEN
 	db 29, AMNESIA
-	db 36, FLAMETHROWER
-	db 48, ROCK_SLIDE
-	db 60, BODY_SLAM
+	db 34, FLAMETHROWER
+	db 39, ROCK_SLIDE
+	db 44, BODY_SLAM
+	db 50, FIRE_BLAST
 	db 0 ; no more level-up moves
 
 SwinubEvosAttacks:
